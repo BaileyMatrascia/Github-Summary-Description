@@ -4,21 +4,21 @@ A description of git summary and how it differs from git log and aids CSE
 
 
 
-##git log
+## git log
 ![image](https://user-images.githubusercontent.com/46755902/141370148-2b275b3a-ae84-4e48-b56c-76f2c685929a.png)
 ### When a user ustilizes git log, it prints out the commit ID, the author of the commit, and the date and time of the commit
 
 
 
 
-##git log --raw
+## git log --raw
 ![image](https://user-images.githubusercontent.com/46755902/141370209-41c4e5b1-52d4-4647-9cab-59fc93504655.png)
 ### When a user adds on the --raw extension to the git log command it also tells the user which file was added to the commit and how. So A = added, M = Modified, R = Renamed, and D = Deleted and it
 
 
 
 
-##git log --patch
+## git log --patch
 ![image](https://user-images.githubusercontent.com/46755902/141370248-7f2a3fd8-e506-4eb0-82e7-1fbee4d7aad5.png)
 ### When a user adds on the --patch extension to the git log command, it tells the user what was specifically changed in a file as shown towards the bottom of the terminal in the picture.
 
@@ -45,7 +45,7 @@ A description of git summary and how it differs from git log and aids CSE
 
 ### On top of all of that, git summary will provide a more visually appealing, easy to read, and organized interface. Everything will be clearly labeled. Why this in particular is beneficial to CSE is because it makes it quicker to understand as opposed to git log which can seem to be a little much at first glance with the long git id and various long patterns of numbers with no commit message which can make it a little confusing to know which commit this is refering without knowing specific details already unless the one who created it knows all of the other details. The git summary look makes it clear to someone who may not know as much about the project to more clearly see what it the commit as opposed to git log where you need to know what certain terms and symbols mean in order to fully understand and further look into the specific details of the commit perhaps on github to get a general understanding of the code. This overall contributes to CSE's prioritization of efficiency as well as when things are clearly labeled and easier to read in comparision to git log, then it takes less time to digest and understand the commits in order to make progress and understand the project faster which in return allows for more the be accomplished in these shorter iterations which CSE needs in order to be successfully executed. And with that as well, with CSE and its devOPS and BizDEV components, it gives opportunity for the commits and progress be easier understood for the business side to read understand if needed and allows for the business to be more connected and involved by utilizeing git summary which is also a key aspect of CSE as well and necessary for CSE to operate.
 
-##Feasibility
+## Feasibility
 
 ### Feasibility of creating this tool is demonstrated through git log and git-standup (which is similar to git log but is made using github) where I can utilize these tool's code which is availible to look at and compare, as well as use them for better evaluation as well. On top of that, the github api is open source so i can utilize availible comands and code as well for my benefit. Even further than, it will be created using github like git-standup and ran in the terminal which are are tools that i am familar with. for the aspect of the lines changed with the code, there is an aspect of that availible through github when looking at the specific details of commits and all of the other info is stored in the github repo so i should be able to extract all of that info from the github repo just as git log and git-standup is able to.
 
