@@ -33,7 +33,7 @@ A description of git summary and how it differs from git log and aids CSE
 
 ## Differences
 
-### What makes git summary different from git log is that with git log you must type in muiltiple commands in order to gather all of the data that git summary provides and even then, you do not get the commit message nor actual code from the file that shows the entire line or surrounding code and lines. Git summary as well will provide a cleaner interface that is more visually appealing and easy to read and provides a header at the top of the summary to provide the user with how many commits are included in the summary so user can quickly know how long the summary is or in short, how many changes were implemented.
+### What makes git summary different from git log is that with git log you must type in muiltiple commands in order to gather all of the data that git summary provides and even then, you do not get the commit message nor actual code from the file that shows the entire line or surrounding code and lines. Git summary as well will provide a cleaner interface that is more visually appealing and easy to read with all of itsheader at the top of the summary to provide the user with how many commits are included in the summary so user can quickly know how long the summary is or in short, how many changes were implemented and labels for everything. Git log has a few labels but not everything is labeled and the random numbers and lack of a commit message can be somewhat confusing at first glance. For gitlog to be useful you need to know what many of the symbols mean.
 
 ## CSE 
 
