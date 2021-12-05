@@ -50,3 +50,5 @@ A description of git summary and how it differs from git log and aids CSE
 ### Feasibility of creating this tool is demonstrated through git log and git-standup (which is similar to git log but is made using github) where I can utilize these tool's code which is availible to look at and compare, as well as use them for better evaluation as well. On top of that, the github api is open source so i can utilize availible comands and code as well for my benefit. Even further than, it will be created using github like git-standup and ran in the terminal which are are tools that i am familar with. for the aspect of the lines changed with the code, there is an aspect of that availible through github when looking at the specific details of commits and all of the other info is stored in the github repo so i should be able to extract all of that info from the github repo just as git log and git-standup is able to.
 
 
+gjihfgjahkghakjhfdsfhtestubg
+
